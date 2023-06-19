@@ -21,16 +21,10 @@ import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
-    private static MainActivity instance;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        instance = this;
 
         /*
             The POST_NOTIFICATION permission requires API 33 and above.
